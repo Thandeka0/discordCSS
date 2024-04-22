@@ -4,7 +4,8 @@ foreignObject[mask*="url(#svg-mask-avatar-status-mobile-"],
 foreignObject[mask="url(#svg-mask-avatar-default)"],
 foreignObject[mask*="url(#uid_"],
 foreignObject[mask*="url(#:r2m:"],
-foreignObject[mask="url(#:rk:)"] {
+foreignObject[mask="url(#:rk:)"],
+foreignObject[mask="url(#:r72:)"] {
   mask: none !important;
   border-radius: 10% !important;
 }
