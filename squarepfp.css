@@ -1,6 +1,8 @@
 img.avatar__08316,
+foreignObject[mask*="url(#svg-mask-avatar-status-round-"],
+foreignObject[mask*="url(#svg-mask-avatar-status-mobile-"],
 foreignObject[mask*="url(#:r2m:"],
-foreignObject[mask*="url(#svg-mask-avatar-"]
+foreignObject[mask*="url(#svg-mask-avatar-default-)"],
 foreignObject[mask*="url(#uid_"] {
   mask: none !important;
   border-radius: 10% !important;
