@@ -1,10 +1,10 @@
 @import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
 
-.avatar__08316,
-.replyAvatar__4ba85,
-.avatarSpeaking__747a1,
-.border_e782de,
-.voiceAvatar_d0dbc5,
+[class^="avatar_],
+[class^="replyAvatar_"],
+[class^="avatarSpeaking_"],
+[class^="border_"],
+[class^="voiceAvatar_"],
 foreignObject[mask*="url(#svg-mask-avatar-status-round-"],
 foreignObject[mask*="url(#svg-mask-avatar-status-mobile-"],
 foreignObject[mask="url(#svg-mask-avatar-default)"],
@@ -31,7 +31,7 @@ foreignObject[mask*="url(#:r"] {
   --rs-offline-color: #636b75; 
   --rs-streaming-color: #643da7; 
   --rs-invisible-color: #636b75; 
-  --rs-phone-color: var(--rs-online-color); /* Colour of the ring and phone icon when a user is on their phone |  */
+  --rs-phone-color: var(--rs-online-color);
 
-  --rs-phone-visible: block; /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
+  --rs-phone-visible: block; 
 }
