@@ -1,13 +1,8 @@
 @import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
 
-[class^="avatar_],
-[class^="replyAvatar_"],
-[class^="avatarSpeaking_"],
+[class*="vatar"],
 [class^="border_"],
-[class^="voiceAvatar_"],
-foreignObject[mask*="url(#svg-mask-avatar-status-round-"],
-foreignObject[mask*="url(#svg-mask-avatar-status-mobile-"],
-foreignObject[mask="url(#svg-mask-avatar-default)"],
+foreignObject[mask*="vatar"],
 foreignObject[mask*="url(#uid_"],
 foreignObject[mask*="url(#:r"] {
   mask: none !important;
@@ -17,11 +12,11 @@ foreignObject[mask*="url(#:r"] {
 :root {
   --rs-small-spacing: 2px; 
   --rs-medium-spacing: 3px;
-  --rs-large-spacing: 4px; 
+  --rs-large-spacing: 6px; 
 
   --rs-small-width: 2px;
   --rs-medium-width: 3px;
-  --rs-large-width: 4px; 
+  --rs-large-width: 2px; 
 
   --rs-avatar-shape: 10%;
 
